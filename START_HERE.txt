@@ -1,0 +1,19 @@
+ANDPY - BUILD APK KHONG CAN ANDROID STUDIO
+
+1) Tao tai khoan GitHub va tao repository moi ten AndPY.
+2) Nen file AndPY-Android-Project.zip.
+3) Mo repository -> Add file -> Upload files.
+4) Tai len TOAN BO noi dung ben trong thu muc AndPY, nho bao gom .github/workflows/build-apk.yml.
+   Neu khong the tai len thu muc an .github: trong GitHub, chon Add file -> Create new file,
+   dat ten .github/workflows/build-apk.yml, roi dan noi dung tu file cung ten trong goi ZIP.
+5) Chon Commit changes.
+6) Mo tab Actions -> Build AndPY APK. Chon Run workflow neu workflow chua tu chay.
+7) Cho den khi run co dau xanh. Mo run do, tai artifact AndPY-debug-APK.
+8) Giai nen artifact de lay app-debug.apk, sau do chuyen vao dien thoai Android va cai dat.
+
+Luu y:
+- Khong can cai Android Studio tren may tinh.
+- Nen de repository Private neu khong muon ma nguon hien cong khai.
+- APK nay la ban debug de thu nghiem.
+- AndPY 1.0 hien soan thao, quan ly va xuat code; chua bien dich/chay truc tiep Python,
+  C++, C#, Java hoac tu dong tao APK tu cac project ben trong app.
